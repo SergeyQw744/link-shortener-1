@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id:  1
+      author:  Sergey
+      comment:  add function to deactivation short links
+      changes:
+        - addColumn:
+            tableName:  shorted_link
+            columns:
+              - column:
+                  type:  boolean
+                  name:  is_active
