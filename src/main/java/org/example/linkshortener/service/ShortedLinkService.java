@@ -11,7 +11,6 @@ import java.util.List;
 @Service
 @Transactional(readOnly = true)
 public class ShortedLinkService {
-    
     private final ShortedLinkRepository shortedLinkRepository;
 
     @Autowired

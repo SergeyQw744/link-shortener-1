@@ -1,4 +1,4 @@
-package org.example.linkshortener.mapper;
+package org.example.linkshortener.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

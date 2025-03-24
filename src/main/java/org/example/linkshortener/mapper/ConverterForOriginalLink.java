@@ -1,5 +1,6 @@
 package org.example.linkshortener.mapper;
 
+import org.example.linkshortener.config.MapperConfig;
 import org.example.linkshortener.dto.LinkDto;
 import org.example.linkshortener.entity.OriginalLink;
 import org.springframework.beans.factory.annotation.Autowired;

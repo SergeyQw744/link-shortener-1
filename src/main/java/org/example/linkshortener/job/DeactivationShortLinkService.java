@@ -1,6 +1,7 @@
-package org.example.linkshortener.service;
+package org.example.linkshortener.job;
 
 import org.example.linkshortener.entity.ShortedLink;
+import org.example.linkshortener.service.ShortedLinkService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
